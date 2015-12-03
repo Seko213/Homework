@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+            // 위젯등에 호출되어 모양과 색을 설정해준다
     <item>
         <shape android:shape="rectangle">
             <stroke android:width="3dp" android:color="#FF80C0" />
