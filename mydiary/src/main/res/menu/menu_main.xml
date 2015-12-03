@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/iReread"
+        android:title="다시 읽기"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/iDelete"
+        android:title="삭제하기"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/iSize"
+        android:title="글자 크기"
+        android:orderInCategory="100"
+        app:showAsAction="never" >
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/fLarge"
+                    android:orderInCategory="100"
+                    android:title="크게"/>
+                <item
+                    android:id="@+id/fMid"
+                    android:orderInCategory="100"
+                    android:title="보통"/>
+                <item
+                    android:id="@+id/fSmall"
+                    android:orderInCategory="100"
+                    android:title="작게"/>
+            </group>
+        </menu>
+    </item>
+</menu>
