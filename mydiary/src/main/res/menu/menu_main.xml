@@ -2,7 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
 
-
+        // 옵션메뉴들을 설정
     <item
         android:id="@+id/iReread"
         android:title="다시 읽기"
@@ -20,7 +20,7 @@
         android:title="글자 크기"
         android:orderInCategory="100"
         app:showAsAction="never" >
-        <menu>
+        <menu>                          // 글자 크기 라는 메뉴안에 메뉴 그룹을 생성하여 서브메뉴를 설정
             <group>
                 <item
                     android:id="@+id/fLarge"
